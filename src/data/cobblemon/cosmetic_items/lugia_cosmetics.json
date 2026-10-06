@@ -1,0 +1,9 @@
+{
+  "pokemon": ["lugia"],
+  "cosmeticItems": [
+    {
+      "consumedItem": "cobblemon:dark_gem",
+      "aspects": ["shadow"]
+    }
+  ]
+}

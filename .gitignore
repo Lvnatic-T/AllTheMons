@@ -1,0 +1,10 @@
+.ATM assets
+.idea
+.spawn_tables
+build
+tools
+
+.env
+build.bat
+publish.bat
+generate_spawn_table.bat

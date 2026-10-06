@@ -1,0 +1,13 @@
+{
+  "pokemon": ["xerneas"],
+  "cosmeticItems": [
+    {
+      "consumedItem": "minecraft:glowstone",
+      "aspects": ["active-mode"]
+    },
+    {
+      "consumedItem": "minecraft:glowstone_dust",
+      "aspects": ["active-mode"]
+    }
+  ]
+}

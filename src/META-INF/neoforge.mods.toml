@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "ALLTHEMONS LICENSE v3.2"
+
+[[mods]]
+modId = "z_atm"
+version = "5.0"
+displayName = "Cobblemon: AllTheMons"
+authors = "Lvantic
+description = '''
+AllTheMons is a collaborative effort from many contributors to add as many Pokemon as possible to Cobblemon.
+All of the addons its made of have been modified to ensure that there's no overlap, which prevents any game-breaking bugs/crashes you would experience without it.
+'''
+logoFile = "pack.png"
+
+[[dependencies.z_atm_x_msd]]
+modId = "cobblemon"
+type = "required"
+reason = "You're missing like the most important mod for this to work. Install/Update it!"
+versionRange = "[1.8.1, )"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.z_atm_x_msd]]
+modId = "mega_showdown"
+type = "required"
+reason = "You're missing like the second most important mod for this to work. Install/Update it!"
+versionRange = "[>=1.2.0+1.8.1+1.21.1-release,)"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,17 @@
+{
+    "entryId": "cobblemon:mewtwo",
+    "forms": [
+      {
+        "displayForm": "Armored",
+        "unlockForms": ["Armored"]
+      },
+      {
+        "displayForm": "Armoredv2",
+        "unlockForms": ["Armoredv2"]
+      },
+      {
+        "displayForm": "Shadow",
+        "unlockForms": ["Shadow"]
+      }
+    ]
+}

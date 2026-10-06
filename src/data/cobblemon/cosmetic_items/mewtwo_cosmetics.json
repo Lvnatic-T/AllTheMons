@@ -1,0 +1,17 @@
+{
+  "pokemon": ["mewtwo"],
+  "cosmeticItems": [
+    {
+      "consumedItem": "cobblemon:dark_gem",
+      "aspects": ["shadow"]
+    },
+    {
+      "consumedItem": "cobblemon:steel_gem",
+      "aspects": ["armored"]
+    },
+    {
+      "consumedItem": "minecraft:netherite_chestplate",
+      "aspects": ["armoredv2"]
+    }
+  ]
+}

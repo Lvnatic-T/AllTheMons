@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "z_atm",
+  "version": "5.0",
+  "name": "Cobblemon: AllTheMons",
+  "description": "AllTheMons is a collaborative effort from many contributors to add as many Pokemon as possible to Cobblemon. \nAll of the addons its made of have been modified to ensure that there's no overlap, which prevents any game-breaking bugs/crashes you would experience without it.",
+  "authors": [
+    "Lvantic"
+  ],
+  "license": "ALLTHEMONS LICENSE v3.2",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "cobblemon": ">=1.8.1",
+    "mega_showdown": ">=1.2.0+1.8.1+1.21.1-release"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.modrinth": "https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy",
+        "modmenu.discord": "https://discord.gg/y7fXYrHkpV",
+        "modmenu.kofi": "https://ko-fi.com/allthemons",
+        "modmenu.source": "https://github.com/Lvnatic-T/AllTheMons-x-Mega-Showdown"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+    "target": "cobblemon:kyurem",
+    "implemented": true,
+    "baseScale": 1,
+    "hitbox": {
+      "width": 4,
+      "height": 4,
+      "fixed": false
+    },
+    "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "20-55",
+          "JUMP": "25-40",
+          "SKILL": "15-30",
+          "SPEED": "55-75",
+          "STAMINA": "30-50"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.4
+      },
+      "fly": {
+        "canFly": false 
+      }
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "2-6"
+      },
+      {
+        "item": "cobblemon:dragon_gem",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ice_gem",
+        "percentage": 50.0
+      },
+      {
+        "item": "minecraft:nether_star",
+        "percentage": 8.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 10.0
+      }
+    ]
+  }
+}
