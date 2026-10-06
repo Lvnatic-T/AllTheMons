@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:victini",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["cosmetic_item-wise_glasses"],
+      "poser": "cobblemon:victini",
+      "model": "cobblemon:victini.geo",
+      "layers": [
+        {
+          "name": "cosmetic",
+          "texture": "cobblemon:textures/pokemon/0494_victini/victini_wise_glasses.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-black_glasses"],
+      "layers": [
+        {
+          "name": "cosmetic",
+          "texture": "cobblemon:textures/pokemon/0494_victini/victini_black_glasses.png"
+        }
+      ]
+    }
+  ]
+}
