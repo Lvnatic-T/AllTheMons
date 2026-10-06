@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:silicobra",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:silicobra",
+      "model": "atm_remodels:silicobra.geo",
+      "texture": "atm_remodels:textures/pokemon/0843_silicobra/silicobra.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0843_silicobra/silicobra_shiny.png"
+    }
+  ]
+}

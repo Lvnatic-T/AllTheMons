@@ -1,0 +1,28 @@
+{
+  "species": "cobblemon:mewtwo",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": ["armoredv2"],
+      "model": "atm_remodels:mewtwo_armored_mega.geo",
+      "poser": "atm_remodels:mewtwo_armored_mega",
+      "texture": "atm_remodels:textures/pokemon/0150_mewtwo/mewtwo_armored_mega.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "atm_remodels:textures/pokemon/0150_mewtwo/mewtwo_armored_mega_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["armoredv2", "shiny"],
+      "texture": "atm_remodels:textures/pokemon/0150_mewtwo/mewtwo_armored_mega_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "atm_remodels:textures/pokemon/0150_mewtwo/mewtwo_armored_mega_emissive.png"
+        }
+      ]
+    }
+  ]
+}

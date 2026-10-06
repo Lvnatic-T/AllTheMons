@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:sandaconda",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:sandaconda",
+      "model": "atm_remodels:sandaconda.geo",
+      "texture": "atm_remodels:textures/pokemon/0844_sandaconda/sandaconda.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0844_sandaconda/sandaconda_shiny.png"
+    }
+  ]
+}

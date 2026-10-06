@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:hooh",
+  "order": 1,
+  "variations": [
+    {
+      "poser": "atm_remodels:hooh",
+      "model": "atm_remodels:hooh.geo",
+      "texture": "atm_remodels:textures/pokemon/0250_hooh/hooh.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0250_hooh/hooh_shiny.png"
+    }
+  ]
+}
