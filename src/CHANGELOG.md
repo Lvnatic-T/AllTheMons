@@ -17,6 +17,7 @@
 - Raised spawn rate of Ultra Beasts in the Overworld dimension _(end spawns stay the same rarity)_
 
 ## Miscellaneous & Fixes:
+- Fixed a parsing error in Fearows poser
 - Fixed Wigglytuff not blinking & having twisted arms
 - Removed old models for Rockruff & Lycanroc from ATM in favor of the new ones
 - Resurrection Machine legendaries _(Type Null, Mewtwo & Genesect)_ can no longer be alphas
