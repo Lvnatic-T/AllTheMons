@@ -1,0 +1,44 @@
+{
+  "portraitScale": 1.38,
+  "portraitTranslation": [-0.21, 0.48, 0],
+  "profileScale": 0.61,
+  "profileTranslation": [0.0, 0.79, 0.0],
+  "rootBone": "wigglytuff",
+  "animations": {
+    "cry": "q.bedrock_stateful('wigglytuff', 'cry')",
+    "faint": "q.bedrock_primary('wigglytuff', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('wigglytuff', 'ground_idle')",
+        "q.bedrock('wigglytuff', 'angry')"
+      ],
+      "quirks": ["q.bedrock_quirk('victini', 'blink', 2, 5, 1)"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('wigglytuff', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink', 2, 5, 1)"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('wigglytuff', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink', 2, 5, 1)"]
+    },
+	"hover": {
+      "poseTypes": ["HOVER", "FLOAT"],
+      "isBattle": false,
+      "animations": ["q.bedrock('wigglytuff', 'air_idle')"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink', 2, 5, 1)"]
+    },
+	"fly": {
+      "poseTypes": ["FLY", "SWIM"],
+      "animations": ["q.bedrock('wigglytuff', 'air_fly')"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink', 2, 5, 1)"]
+    }
+  }
+}
