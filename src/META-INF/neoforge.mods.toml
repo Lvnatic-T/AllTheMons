@@ -14,7 +14,7 @@ All of the addons its made of have been modified to ensure that there's no overl
 '''
 logoFile = "pack.png"
 
-[[dependencies.z_atm_x_msd]]
+[[dependencies.z_atm]]
 modId = "cobblemon"
 type = "required"
 reason = "You're missing like the most important mod for this to work. Install/Update it!"
@@ -22,10 +22,18 @@ versionRange = "[1.8.1, )"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.z_atm_x_msd]]
+[[dependencies.z_atm]]
 modId = "mega_showdown"
-type = "required"
-reason = "You're missing like the second most important mod for this to work. Install/Update it!"
-versionRange = "[>=1.2.0+1.8.1+1.21.1-release,)"
+type = "incompatible"
+versionRange = "*"
+reason = "Download ATM x MSD instead if you use Mega Showdown!"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.z_atm]]
+modId = "z_atm_x_msd"
+type = "incompatible"
+versionRange = "*"
+reason = "You can only use either AllTheMons OR ATM x MSD, not both!"
 ordering = "AFTER"
 side = "BOTH"

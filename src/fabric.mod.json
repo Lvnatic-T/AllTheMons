@@ -11,16 +11,19 @@
   "icon": "pack.png",
   "environment": "*",
   "depends": {
-    "cobblemon": ">=1.8.1",
-    "mega_showdown": ">=1.2.0+1.8.1+1.21.1-release"
+    "cobblemon": ">=1.8.1"
+  },
+  "breaks": {
+    "mega_showdown": "*",
+    "z_atm_x_msd": "*"
   },
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.modrinth": "https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy",
-        "modmenu.discord": "https://discord.gg/y7fXYrHkpV",
+        "modmenu.modrinth": "https://modrinth.com/datapack/allthemons",
+        "modmenu.discord": "https://discord.com/invite/few6NPdXjD",
         "modmenu.kofi": "https://ko-fi.com/allthemons",
-        "modmenu.source": "https://github.com/Lvnatic-T/AllTheMons-x-Mega-Showdown"
+        "modmenu.source": "https://github.com/Lvnatic-T/AllTheMons"
       }
     }
   }
