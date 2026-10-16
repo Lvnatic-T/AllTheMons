@@ -25,6 +25,7 @@
 ## Miscellaneous & Fixes:
 - Fixed a parsing error in Fearows poser
 - Fixed Wigglytuff not blinking & having twisted arms
+- Updated some spawns to be additions instead of overwrites
 - Removed old models for Rockruff & Lycanroc from ATM in favor of the new ones
 - Resurrection Machine legendaries _(Type Null, Mewtwo & Genesect)_ can no longer be alphas
 - Ultra Beast no longer spawn in the wild if either [Cobblemon Ultra-Beasts](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-beasts) or [Cobblemon Ultra Space](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-space) are installed _(since they add their own spawns)_

@@ -11,9 +11,9 @@
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
+            "bucket": "uncommon",
             "level": "14-37",
-            "weight": 10.0,
+            "weight": 92.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -30,8 +30,8 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "38-57",
-            "weight": 8.1,
+            "level": "14-37",
+            "weight": 72.1,
             "condition": {
                 "biomes": [
                     "#cobblemon:nether/is_basalt"
