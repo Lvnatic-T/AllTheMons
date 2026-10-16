@@ -4,24 +4,21 @@
 - **DO NOT** install both variants at the same time - pick either one
 - Mod is easier to install & update, addon is easier to customize
 - The mod version works for both Fabric & NeoForge
-
 ## Updated to Cobblemon 1.8.2+
 - Removed Greavard, Heliolisk, Helioptile & Houndstone
 - Removed custom spawns for Burmy, Wormadam, Mothim, Snover & Minior
 - Updated animations to new models for Braixen, Spheal, Shinx, Luxio, Luxray & Politoed
 - Removed custom animations for Greninja, Chesnaught, Delphox, Treecko _(Cobblemon adds better ones)_
-
 ## Additions:
 - Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at nighttime)_
 - Added Lycanroc (Dusk/Midday/Midnight) animations made by **quinn284**!
+- Added Absol animations & riding, can now walk on water
 - Added Rockruff animations & shoulder mount
 - Added a Battle Idle to Wigglytuff
-
 ## Updates:
 - Updated Victini's V-Create so it has more and better fitting particles
 - Updated Eternatus & Terapagos' catch rate from 255 to 3 _(matching other legends)_
 - Raised spawn rate of Ultra Beasts in the Overworld dimension _(end spawns stay the same rarity)_
-
 ## Miscellaneous & Fixes:
 - Fixed a parsing error in Fearows poser
 - Fixed Wigglytuff not blinking & having twisted arms
