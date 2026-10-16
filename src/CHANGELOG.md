@@ -1,4 +1,5 @@
 ## v5.0 Changelog:
+## Compatible with Cobblemon 1.8.2
 ## Available as a mod now!
 - From this version on ATM will always release as both a mod & an addon (data/resource pack)
 - **DO NOT** install both variants at the same time - pick either one
@@ -26,3 +27,5 @@
 - Removed old models for Rockruff & Lycanroc from ATM in favor of the new ones
 - Resurrection Machine legendaries _(Type Null, Mewtwo & Genesect)_ can no longer be alphas
 - Ultra Beast no longer spawn in the wild if either [Cobblemon Ultra-Beasts](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-beasts) or [Cobblemon Ultra Space](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-space) are installed _(since they add their own spawns)_
+
+Since CobbleBot is currently down you can find a spawn spreadsheet right [here](https://drive.google.com/drive/u/0/folders/1z8Aw5CXDzHxmQFOLSItMGiAtn2KDOz_b)
