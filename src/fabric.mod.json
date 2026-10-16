@@ -11,7 +11,7 @@
   "icon": "pack.png",
   "environment": "*",
   "depends": {
-    "cobblemon": ">=1.8.1"
+    "cobblemon": ">=1.8.2"
   },
   "breaks": {
     "mega_showdown": "*",

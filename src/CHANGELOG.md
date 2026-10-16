@@ -5,9 +5,15 @@
 - Mod is easier to install & update, addon is easier to customize
 - The mod version works for both Fabric & NeoForge
 
+## Updated to Cobblemon 1.8.2+
+- Removed Greavard, Heliolisk, Helioptile & Houndstone
+- Removed custom spawns for Burmy, Wormadam, Mothim, Snover & Minior
+- Removed custom animations for Greninja, Chesnaught
+- Updated animations to new models for Braixen, Spheal, & Politoed
+
 ## Additions:
 - Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at nighttime)_
-- Added Lycanroc (Dusk/Midday) animations made by **quinn284**!
+- Added Lycanroc (Dusk/Midday/Midnight) animations made by **quinn284**!
 - Added Rockruff animations & shoulder mount
 - Added a Battle Idle to Wigglytuff
 
