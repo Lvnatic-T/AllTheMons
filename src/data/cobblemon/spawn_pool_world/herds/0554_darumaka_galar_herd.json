@@ -1,0 +1,95 @@
+{
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "bucket": "common",
+            "condition": {
+                "biomes": [
+                    "minecraft:frozen_peaks",
+          "minecraft:ice_spikes",
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_cold"
+                ],
+                "maxSkyLight": 15,
+                "minSkyLight": 8,
+                "structures": [
+                    "#cobblemon:ruin"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "10-29",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "pokemon": "darumaka galarian",
+                    "weight": 80.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "37-50",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 2,
+                    "pokemon": "darmanitan galarian",
+                    "weight": 20.0
+                }
+            ],
+            "id": "darumaka-herd-1",
+            "levelRange": "7-54",
+            "maxHerdSize": 4,
+            "presets": [
+                "natural"
+            ],
+            "spawnablePositionType": "grounded",
+            "type": "pokemon-herd",
+            "weight": 600.0
+        },
+        {
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:nether/is_frozen",
+                    "#cobblemon:nether/is_quartz",
+                    "#cobblemon:nether/is_toxic"
+                ]
+            },
+            "bucket": "common",
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_frozen"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "10-29",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "pokemon": "darumaka galarian",
+                    "weight": 80.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "37-50",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 2,
+                    "pokemon": "darmanitan galarian",
+                    "weight": 20.0
+                }
+            ],
+            "id": "darumaka-herd-4",
+            "levelRange": "7-54",
+            "maxHerdSize": 4,
+            "presets": [
+                "natural"
+            ],
+            "spawnablePositionType": "grounded",
+            "type": "pokemon-herd",
+            "weight": 20.0
+        }
+    ]
+}
