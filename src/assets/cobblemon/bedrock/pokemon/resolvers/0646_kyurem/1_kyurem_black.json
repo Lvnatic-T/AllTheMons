@@ -4,31 +4,60 @@
   "variations": [
     {
       "aspects": ["black-fusion"],
-      "poser": "cobblemon:kyuremblack",
-      "model": "cobblemon:kyuremblack.geo",
-      "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack.png",
+      "poser": "cobblemon:kyurem_black",
+      "model": "cobblemon:kyurem_black.geo",
+      "texture": "cobblemon:textures/pokemon/kyurem/kyurem_black.png",
       "layers": [
         {
-              "name": "emissive",
-              "emissive": true,
-              "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack_emissive.png",
-              "translucent": true
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/kyurem/kyurem_black_emissive.png",
+              "translucent": false
+              
+        },
+        {
+          "name": "lightning",
+          "emissive": true,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/kyurem/kyurem_black_lightning_1.png",
+              "cobblemon:textures/pokemon/kyurem/kyurem_black_lightning_2.png",
+              "cobblemon:textures/pokemon/kyurem/kyurem_black_lightning_3.png",
+              "cobblemon:textures/pokemon/kyurem/kyurem_black_lightning_4.png"
+            ],
+            "fps": 5,
+            "loop": true,
+            "translucent": false
+          }
         }
-      ]
+      ] 
     },
     {
-      "aspects": [
-	    "black-fusion",
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack_shiny.png",
+      "aspects": ["shiny" , "black-fusion"],
+      "texture": "cobblemon:textures/pokemon/kyurem/kyurem_black_shiny.png",
       "layers": [
         {
-              "name": "emissive",
-              "emissive": true,
-              "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack_emissive_shiny.png",
-              "translucent": true
-        }
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/kyurem/kyurem_black_shiny_emissive.png",
+              "translucent": false
+              
+        },
+        {
+          "name": "lightning",
+          "emissive": true,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/kyurem/kyurem_black_shiny_lightning_1.png",
+              "cobblemon:textures/pokemon/kyurem/kyurem_black_shiny_lightning_2.png",
+              "cobblemon:textures/pokemon/kyurem/kyurem_black_shiny_lightning_3.png",
+              "cobblemon:textures/pokemon/kyurem/kyurem_black_shiny_lightning_4.png"
+            ],
+            "fps": 5,
+            "loop": true,
+            "translucent": false
+          }
+        } 
       ]
     }
   ]

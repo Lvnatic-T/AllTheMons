@@ -9,6 +9,7 @@
 ## Updates:
 - Updated Frigibax model
 - Updated Baxcalibur model
+- Updated Kyurem (Base, Black & White) & added riding
 ## Miscellaneous & Fixes:
 - Added an Alphas & Herds tab to the spawn spreadsheet
 

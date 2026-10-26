@@ -1,33 +1,43 @@
 {
   "species": "cobblemon:kyurem",
-  "order": 1,
+  "order": 2,
   "variations": [
     {
       "aspects": ["white-fusion"],
-      "poser": "cobblemon:kyuremwhite",
-      "model": "cobblemon:kyuremwhite.geo",
-      "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremwhite.png",
+      "poser": "cobblemon_reanimodel:kyurem_white",
+      "model": "cobblemon_reanimodel:kyurem_white.geo",
+      "texture": "cobblemon_reanimodel:textures/pokemon/kyurem/kyurem_white.png",
       "layers": [
         {
-              "name": "emissive",
-              "emissive": true,
-              "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremwhite_emissive.png",
-              "translucent": true
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon_reanimodel:textures/pokemon/kyurem/kyurem_white_emissive.png"
+          
+        },
+        {
+          "name": "emissive2",
+          "emissive": true,
+          "texture": "cobblemon_reanimodel:textures/pokemon/kyurem/kyurem_white_tube_emissive.png",
+          "translucent": false
         }
-      ]
+      ] 
     },
     {
-      "aspects": [
-	    "white-fusion",
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremwhite_shiny.png",
+      "aspects": ["shiny" , "white-fusion"],
+      "texture": "cobblemon_reanimodel:textures/pokemon/kyurem/kyurem_white_shiny.png",
       "layers": [
         {
-              "name": "emissive",
-              "emissive": true,
-              "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremwhite_emissive_shiny.png",
-              "translucent": true
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon_reanimodel:textures/pokemon/kyurem/kyurem_white_emissive.png",
+          "translucent": false
+              
+        },
+        {
+          "name": "emissive2",
+          "emissive": true,
+          "texture": "cobblemon_reanimodel:textures/pokemon/kyurem/kyurem_white_tube_emissive.png",
+          "translucent": false
         }
       ]
     }
