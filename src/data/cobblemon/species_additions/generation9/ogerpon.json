@@ -1,6 +1,12 @@
 {
   "target": "cobblemon:ogerpon",
   "implemented": true,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 1.1,
+    "height": 2.0,
+    "fixed": false
+  },
   "behaviour": {
     "resting": {
       "canSleep": true,
@@ -20,165 +26,125 @@
       }
     }
   },
-  "baseScale": 0.6,
-  "hitbox": {
-    "width": 1.1,
-    "height": 2.0,
-    "fixed": false
-  },
   "evolutions": [
-      {
-          "id": "ogerpon-teal_ogerpon-hearthflame",
-          "variant": "item_interact",
-          "result": "ogerpon ogre_mask=hearthflame",
-          "consumeHeldItem": false,
-          "requirements": [],
-          "requiredContext": "minecraft:red_dye"
-      },
-      {
-          "id": "ogerpon-teal_ogerpon-wellspring",
-          "variant": "item_interact",
-          "result": "ogerpon ogre_mask=wellspring",
-          "consumeHeldItem": false,
-          "requirements": [],
-          "requiredContext": "minecraft:blue_dye"
-      },
-      {
-          "id": "ogerpon-teal_ogerpon-cornerstone",
-          "variant": "item_interact",
-          "result": "ogerpon ogre_mask=cornerstone",
-          "consumeHeldItem": false,
-          "requirements": [],
-          "requiredContext": "minecraft:gray_dye"
-      }
+    {
+      "id": "ogerpon-teal_ogerpon-hearthflame",
+      "variant": "item_interact",
+      "result": "ogerpon ogre_mask=hearthflame",
+      "consumeHeldItem": false,
+      "requirements": [],
+      "requiredContext": "minecraft:red_dye"
+    },
+    {
+      "id": "ogerpon-teal_ogerpon-wellspring",
+      "variant": "item_interact",
+      "result": "ogerpon ogre_mask=wellspring",
+      "consumeHeldItem": false,
+      "requirements": [],
+      "requiredContext": "minecraft:blue_dye"
+    },
+    {
+      "id": "ogerpon-teal_ogerpon-cornerstone",
+      "variant": "item_interact",
+      "result": "ogerpon ogre_mask=cornerstone",
+      "consumeHeldItem": false,
+      "requirements": [],
+      "requiredContext": "minecraft:gray_dye"
+    }
   ],
   "forms": [
-      {
-        "name": "Wellspring",
-        "primaryType": "grass",
-        "secondaryType": "water",
-        "maleRatio": 0,
-        "height": 12,
-        "weight": 398,
-        "pokedex": [
-          "cobblemon.species.ogerpon-wellspring.desc"
-        ],
-        "labels": [
-          "gen9",
-          "legendary"
-        ],
-        "aspects": [
-          "wellspring-mask"
-        ],
-        "abilities": [
-          "waterabsorb",
-          "h:waterabsorb"
-        ],
-        "eggCycles": 5,
-        "evolutions": [
-          {
-              "id": "ogerpon-wellspring_ogerpon-teal",
-              "variant": "item_interact",
-              "result": "ogerpon ogre_mask=teal",
-              "consumeHeldItem": false,
-              "requirements": [],
-              "requiredContext": "minecraft:cyan_dye"
-          }
-        ],
-        "battleOnly": false
-      },
-      {
-        "name": "Hearthflame",
-        "primaryType": "grass",
-        "secondaryType": "fire",
-        "maleRatio": 0,
-        "height": 12,
-        "weight": 398,
-        "pokedex": [
-          "cobblemon.species.ogerpon-hearthflame.desc"
-        ],
-        "labels": [
-          "gen9",
-          "legendary"
-        ],
-        "aspects": [
-          "hearthflame-mask"
-        ],
-        "abilities": [
-          "moldbreaker",
-          "h:moldbreaker"
-        ],
-        "eggCycles": 5,
-        "evolutions": [
-          {
-              "id": "ogerpon-hearthflame_ogerpon-teal",
-              "variant": "item_interact",
-              "result": "ogerpon ogre_mask=teal",
-              "consumeHeldItem": false,
-              "requirements": [],
-              "requiredContext": "minecraft:cyan_dye"
-          }
-        ],
-        "battleOnly": false
-      },
-      {
-        "name": "Cornerstone",
-        "primaryType": "grass",
-        "secondaryType": "rock",
-        "maleRatio": 0,
-        "height": 12,
-        "weight": 398,
-        "pokedex": [
-          "cobblemon.species.ogerpon-cornerstone.desc"
-        ],
-        "labels": [
-          "gen9",
-          "legendary"
-        ],
-        "aspects": [
-          "cornerstone-mask"
-        ],
-        "abilities": [
-          "sturdy",
-          "h:sturdy"
-        ],
-        "eggCycles": 5,
-        "evolutions": [
-          {
-              "id": "ogerpon-cornerstone_ogerpon-teal",
-              "variant": "item_interact",
-              "result": "ogerpon ogre_mask=teal",
-              "consumeHeldItem": false,
-              "requirements": [],
-              "requiredContext": "minecraft:cyan_dye"
-          }
-        ],
-        "battleOnly": false
-      }
-  ],
-  "drops": {
-    "amount": 5,
-    "entries": [
-      {
-        "item": "cobblemon:rare_candy",
-        "quantityRange": "2-6"
-      },
-      {
-        "item": "cobblemon:grass_gem",
-        "percentage": 50.0
-      },
-      {
-        "item": "minecraft:nether_star",
-        "percentage": 8.0
-      },
-      {
-        "item": "cobblemon:ability_capsule",
-        "percentage": 25.0
-      },
-      {
-        "item": "cobblemon:ability_patch",
-        "percentage": 10.0
-      }
-    ]
-  }
+    {
+      "name": "Wellspring",
+      "primaryType": "grass",
+      "secondaryType": "water",
+      "height": 12,
+      "weight": 398,
+      "pokedex": [
+        "cobblemon.species.ogerpon-wellspring.desc"
+      ],
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "aspects": [
+        "wellspring-mask"
+      ],
+      "abilities": [
+        "waterabsorb",
+        "h:waterabsorb"
+      ],
+      "evolutions": [
+        {
+          "id": "ogerpon-wellspring_ogerpon-teal",
+          "variant": "item_interact",
+          "result": "ogerpon ogre_mask=teal",
+          "consumeHeldItem": false,
+          "requirements": [],
+          "requiredContext": "minecraft:cyan_dye"
+        }
+      ]
+    },
+    {
+      "name": "Hearthflame",
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "height": 12,
+      "weight": 398,
+      "pokedex": [
+        "cobblemon.species.ogerpon-hearthflame.desc"
+      ],
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "aspects": [
+        "hearthflame-mask"
+      ],
+      "abilities": [
+        "moldbreaker",
+        "h:moldbreaker"
+      ],
+      "evolutions": [
+        {
+          "id": "ogerpon-hearthflame_ogerpon-teal",
+          "variant": "item_interact",
+          "result": "ogerpon ogre_mask=teal",
+          "consumeHeldItem": false,
+          "requirements": [],
+          "requiredContext": "minecraft:cyan_dye"
+        }
+      ]
+    },
+    {
+      "name": "Cornerstone",
+      "primaryType": "grass",
+      "secondaryType": "rock",
+      "height": 12,
+      "weight": 398,
+      "pokedex": [
+        "cobblemon.species.ogerpon-cornerstone.desc"
+      ],
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "aspects": [
+        "cornerstone-mask"
+      ],
+      "abilities": [
+        "sturdy",
+        "h:sturdy"
+      ],
+      "evolutions": [
+        {
+          "id": "ogerpon-cornerstone_ogerpon-teal",
+          "variant": "item_interact",
+          "result": "ogerpon ogre_mask=teal",
+          "consumeHeldItem": false,
+          "requirements": [],
+          "requiredContext": "minecraft:cyan_dye"
+        }
+      ]
+    }
+  ]
 }

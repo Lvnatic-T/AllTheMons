@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:spoink",   
-  "shoulderMountable": false,
   "baseScale": 0.45,
   "hitbox": {
     "width": 0.8,

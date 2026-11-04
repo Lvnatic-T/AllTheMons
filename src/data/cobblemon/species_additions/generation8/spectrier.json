@@ -1,13 +1,13 @@
 {
-    "target": "cobblemon:spectrier",
-    "implemented": true,
-    "baseScale": 1,
-    "hitbox": {
-      "width": 1.5,
-      "height": 3,
-      "fixed": false
-    },
-    "drops": {
+  "target": "cobblemon:spectrier",
+  "implemented": true,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.5,
+    "height": 3,
+    "fixed": false
+  },
+  "drops": {
     "amount": 5,
     "entries": [
       {

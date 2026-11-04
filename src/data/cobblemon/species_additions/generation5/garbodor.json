@@ -1,5 +1,4 @@
 {
-  "implemented": true,
   "target": "cobblemon:garbodor",
   "baseScale": 0.58,
   "hitbox": {

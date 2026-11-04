@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:pawniard",
-  "implemented": true,
   "baseScale": 1.0,
   "hitbox": {
     "width": 1,
