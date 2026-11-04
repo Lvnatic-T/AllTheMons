@@ -1,11 +1,31 @@
 {
  "target": "cobblemon:volcanion",
  "implemented": true,
-  "baseScale": 1,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 3.8,
-    "height": 4,
+    "width": 3.0,
+    "height": 4.5,
     "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "30-60",
+          "JUMP": "30-65",
+          "SKILL": "20-50",
+          "SPEED": "20-40",
+          "STAMINA": "60-105"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
   },
   "drops": {
     "amount": 5,
