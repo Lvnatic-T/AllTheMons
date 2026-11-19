@@ -23,6 +23,7 @@
 - Fixed Pecharunt not having the usual drops
 - Lots of smaller file cleanups - again, as always
 - Added an Alphas & Herds tab to our [spawn spreadsheet](https://drive.google.com/drive/u/0/folders/1z8Aw5CXDzHxmQFOLSItMGiAtn2KDOz_b)
+- Fixed Hoopa not being able to spawn since Cobblemon removed the End City preset
 - Reorganized lots of files, drops are now separated from additions & found under `/data/cobblemon_drops`
 ## License Update:
 The ALLTHEMONS LICENSE was updated from v 3.2 to v3.3. Already released versions are not affected by the changes and Servers & Modpacks that already got permission **do not** have to regain - those will carry over
